@@ -96,7 +96,7 @@ bot.on('message', (msg) => {
                    parseFloat(req.params.i), // string to float
 	           parseFloat(req.params.r)
                    parseFloat(jres[0]),
-                   parseFloat(jres[1]),
+                   parseFloat(jres[1])
                 ]
                 ).then((jres_)=>{
                     res.json({jres, jres_})
