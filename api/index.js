@@ -94,7 +94,7 @@ bot.on('message', (msg) => {
 	        cls_model.classify(
                 [
                    parseFloat(req.params.i), // string to float
-	           parseFloat(req.params.r)
+	           parseFloat(req.params.r),
                    parseFloat(jres[0]),
                    parseFloat(jres[1])
                 ]
